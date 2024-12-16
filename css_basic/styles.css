@@ -1,8 +1,11 @@
-main, body{
+body{
+    background-color: #a4a46e;
     display: flex;
+    flex-direction: column;
 }
 
 main{
+    display: flex;
     flex-direction: row;
     flex: auto;
 }
@@ -13,6 +16,7 @@ article{
 }
 
 aside{
+    background-color: #70704e;
     flex: 1;
     overflow-y: auto;
 }
@@ -35,4 +39,3 @@ aside{
         float: none;
     }
   }
-  
